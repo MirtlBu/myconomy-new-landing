@@ -1,0 +1,19 @@
+{
+  "name": "Mirtl",
+  "version": "0.0.1",
+  "homepage": "https://github.com/MirtlBu/myconomy-new-landing",
+  "authors": [
+    "Елена <bubuzoglo@gmail.com>"
+  ],
+  "description": "new landing for myconomy",
+  "keywords": [
+    "frontend"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "jquery": null,
+    "social-likes": null,
+    "fontawesome": null
+  }
+}

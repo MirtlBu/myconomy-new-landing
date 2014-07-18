@@ -1,0 +1,137 @@
+.motivationblock__title, .storesblock__title, .socialblock__name, .socialblock__title {
+  font-weight: 400;
+  margin-bottom: 5px; }
+
+.motivationblock__text, .storesblock__text, .socialblock__text {
+  color: #848484;
+  line-height: 1.4em;
+  font-weight: 200; }
+
+.topblock__wrap, .motivationblock__wrap, .storesblock__wrap, .socialblock__wrap {
+  width: 1000px;
+  margin: auto;
+  padding: 75px 0 75px 0;
+  vertical-align: top; }
+
+a.topblock__appstore, a.topblock__googleplay, .socialblock__icon {
+  background-color: #fe9500;
+  display: inline-block;
+  width: 55px;
+  height: 45px;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  margin-right: 15px; }
+  a.topblock__appstore:hover, a.topblock__googleplay:hover, .socialblock__icon:hover {
+    background-color: rgba(254, 149, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8); }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica Neue", Arial, sans-serif; }
+
+li {
+  list-style: none; }
+
+.topblock {
+  background: url(../images/topblock-background.jpg) no-repeat;
+  background-size: cover; }
+
+.topblock:after {
+  position: absolute;
+  content: '';
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 605px;
+  top: 0; }
+
+.topblock__wrap {
+  width: 935px;
+  padding: 80px 0 0 65px; }
+
+.topblock__content {
+  width: 455px;
+  display: inline-block;
+  position: relative;
+  bottom: 140px;
+  line-height: 1.3; }
+
+.handhtc {
+  display: inline-block;
+  position: relative;
+  bottom: -18px;
+  right: -35px; }
+
+.topblock__logo {
+  display: block;
+  margin-bottom: 20px; }
+
+.slogan {
+  color: white;
+  font-weight: 200;
+  display: block; }
+
+.topblock__text {
+  color: white;
+  font-size: 24px;
+  font-weight: 300;
+  display: block;
+  margin: 40px 0 30px 0;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3); }
+
+/*icons inner position fix*/
+a.topblock__googleplay i {
+  margin-left: 1px; }
+
+.motivationblock__wrap {
+  text-align: center; }
+
+.motivationblock__section {
+  width: 29%;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center; }
+
+.motivationblock__icon {
+  width: 100px;
+  height: 80px;
+  display: block;
+  background-color: #fe9500;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  margin: auto;
+  padding-top: 20px; }
+
+.storesblock {
+  background: url(../images/food.png); }
+
+.storesblock__wrap {
+  text-align: center; }
+
+.storesblock__content {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 50px; }
+
+.store {
+  width: 25%;
+  height: 400px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: center; }
+
+.storesblock__text {
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3); }
+
+.socialblock__wrap {
+  text-align: center; }
+
+.socialblock__name {
+  font-size: 18px;
+  font-weight: 500; }
+
+.socialblock__title {
+  margin-top: 30px; }

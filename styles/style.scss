@@ -1,0 +1,205 @@
+$myconomyOrange: #fe9500;
+$white: #fff;
+$headerFont:'PT Sans Caption', sans-serif;
+
+%title {
+	font-weight: 400;
+	margin-bottom: 5px;
+}
+
+%text {
+	color: #848484;
+	line-height: 1.4em;
+	font-weight: 200;
+}
+
+%wrap {
+	width: 1000px;
+	margin: auto;	
+	padding: 75px 0 75px 0;
+	vertical-align: top;
+}
+
+%icons {
+	background-color: rgba(254, 149, 0, 1);
+	display: inline-block;
+	width: 55px;
+	height: 45px;
+	border-radius: 50%;
+	color: rgba(255, 255, 255, 1);
+	text-align: center;
+	padding-top: 10px;
+	margin-right: 15px;
+	&:hover {
+		background-color: rgba(254, 149, 0, .8);
+		color: rgba(255, 255, 255, .8);
+	}	
+}
+
+// @each $back in avoska, monetka, dixy, sedmoyi {
+// 	.#{$back} {
+//             background: url(../images/store-#{$back}.png);
+//         } 
+// }
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+li {
+	list-style: none;
+}
+
+.topblock {
+	background: url(../images/topblock-background.jpg) no-repeat;
+	background-size: cover;
+}
+
+.topblock:after {
+	position: absolute;
+	content: '';
+	background: rgba(0, 0, 0, .1);
+	width: 100%;
+	height: 605px;
+	top: 0;
+}
+
+.topblock__wrap {
+	@extend %wrap;
+	width: 935px;
+	padding: 80px 0 0 65px;
+}
+
+.topblock__content {
+	width: 455px;
+	display: inline-block;
+	position: relative;
+	bottom: 140px;
+	line-height: 1.3;
+}
+
+.handhtc {
+	display: inline-block;
+	position: relative;
+	bottom: -18px;
+	right: -35px;
+}
+
+.topblock__logo {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.slogan {
+	color: $white;
+	font-weight: 200;
+	display: block;
+}
+
+.topblock__text {
+	color: $white;
+	font-size: 24px;
+	font-weight: 300;
+	display: block;
+	margin: 40px 0 30px 0;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+}
+
+a.topblock__appstore, a.topblock__googleplay {
+	@extend %icons;
+}
+
+/*icons inner position fix*/
+a.topblock__googleplay i{
+	margin-left: 1px;
+}
+
+.motivationblock__wrap {
+	@extend %wrap;
+	text-align: center;	
+}
+
+.motivationblock__section {
+	width: 29%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.motivationblock__icon {
+	width: 100px;
+	height: 80px;
+	display: block;
+	background-color: $myconomyOrange;
+	border-radius: 50%;
+	color: $white;
+	text-align: center;
+	margin: auto;
+	padding-top: 20px;
+}
+
+.motivationblock__title {
+	@extend %title;
+}
+
+.motivationblock__text {
+	@extend %text;
+}
+
+.storesblock {
+	background: url(../images/food.png);
+}
+
+.storesblock__wrap {
+	@extend %wrap;
+	text-align: center;
+}
+
+.storesblock__content {
+	display: inline-block;
+	vertical-align: top;
+	margin-bottom: 50px;
+}
+
+.store {
+	width: 25%;
+	height: 400px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+.storesblock__title {
+	@extend %title;
+}
+
+.storesblock__text {
+	@extend %text;
+	text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+}
+
+.socialblock__wrap {
+	@extend %wrap;
+	text-align: center;
+}
+
+.socialblock__name {
+	@extend %title;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.socialblock__text {
+	@extend %text;
+}
+
+.socialblock__title {
+	@extend %title;
+	margin-top: 30px;
+}
+
+.socialblock__icon {
+	@extend %icons;
+}
