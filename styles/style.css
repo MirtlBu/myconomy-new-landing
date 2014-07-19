@@ -7,13 +7,13 @@
   line-height: 1.4em;
   font-weight: 200; }
 
-.topblock__wrap, .motivationblock__wrap, .storesblock__wrap, .socialblock__wrap {
+.topblock__wrap, .motivationblock__wrap, .storesblock__wrap, .socialblock__wrap, .footerblock__wrap {
   width: 1000px;
   margin: auto;
   padding: 75px 0 75px 0;
   vertical-align: top; }
 
-a.topblock__appstore, a.topblock__googleplay, .socialblock__icon {
+a.topblock__appstore, a.topblock__googleplay, a.footerblock__icon {
   background-color: #fe9500;
   display: inline-block;
   width: 55px;
@@ -23,7 +23,7 @@ a.topblock__appstore, a.topblock__googleplay, .socialblock__icon {
   text-align: center;
   padding-top: 10px;
   margin-right: 15px; }
-  a.topblock__appstore:hover, a.topblock__googleplay:hover, .socialblock__icon:hover {
+  a.topblock__appstore:hover, a.topblock__googleplay:hover, a.footerblock__icon:hover {
     background-color: rgba(254, 149, 0, 0.8);
     color: rgba(255, 255, 255, 0.8); }
 
@@ -39,7 +39,7 @@ li {
   background: url(../images/topblock-background.jpg) no-repeat;
   background-size: cover; }
 
-.topblock:after {
+.topblock:before {
   position: absolute;
   content: '';
   background: rgba(0, 0, 0, 0.1);
@@ -109,7 +109,8 @@ a.topblock__googleplay i {
   background: url(../images/food.png); }
 
 .storesblock__wrap {
-  text-align: center; }
+  text-align: center;
+  padding: 120px 0; }
 
 .storesblock__content {
   display: inline-block;
@@ -134,4 +135,25 @@ a.topblock__googleplay i {
   font-weight: 500; }
 
 .socialblock__title {
-  margin-top: 30px; }
+  margin: 30px 0 30px 0; }
+
+.footerblock {
+  background: #190e00; }
+
+.footerblock__wrap {
+  padding: 30px 0; }
+
+.footerblock__links {
+  text-align: center;
+  margin: 30px auto; }
+
+.footerblock__link {
+  color: white;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 5px; }
+  .footerblock__link:hover {
+    color: rgba(255, 255, 255, 0.7); }
+
+.footerblock__icons {
+  text-align: center; }

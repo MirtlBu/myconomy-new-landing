@@ -57,7 +57,7 @@ li {
 	background-size: cover;
 }
 
-.topblock:after {
+.topblock:before {
 	position: absolute;
 	content: '';
 	background: rgba(0, 0, 0, .1);
@@ -155,6 +155,7 @@ a.topblock__googleplay i{
 .storesblock__wrap {
 	@extend %wrap;
 	text-align: center;
+  padding: 120px 0;
 }
 
 .storesblock__content {
@@ -197,9 +198,37 @@ a.topblock__googleplay i{
 
 .socialblock__title {
 	@extend %title;
-	margin-top: 30px;
+	margin: 30px 0 30px 0;
 }
 
-.socialblock__icon {
-	@extend %icons;
+.footerblock {
+  background: darken($myconomyOrange, 45%);
+}
+
+.footerblock__wrap {
+  @extend %wrap;
+  padding: 30px 0;
+}
+
+.footerblock__links {
+  text-align: center;
+  margin: 30px auto;
+}
+
+.footerblock__link {
+  color: $white;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(255, 255, 255, .3);
+  margin: 5px;
+  &:hover {
+    color: rgba(255, 255, 255, .7);
+  }
+}
+
+.footerblock__icons {
+  text-align: center;
+}
+
+a.footerblock__icon {
+  @extend %icons;
 }

@@ -56,7 +56,7 @@ module.exports = function(grunt) {
           'www/css/style.css': [
             'styles/style.css',
             'bower_components/fontawesome/font-awesome.min.css',
-            'bower_components/social-likes_birman.css'
+            'bower_components/social-likes/social-likes_birman.css'
           ]
         }
       }
