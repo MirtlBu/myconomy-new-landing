@@ -54,9 +54,9 @@ module.exports = function(grunt) {
         files: {
           // Можно указывать конкретный порядок
           'www/css/style.css': [
-            'styles/style.css',
-            'bower_components/fontawesome/font-awesome.min.css',
-            'bower_components/social-likes/social-likes_birman.css'
+            'styles/style.css',            
+            'bower_components/social-likes/social-likes_birman.css',
+            'bower_components/fontawesome/css/font-awesome.css'
           ]
         }
       }

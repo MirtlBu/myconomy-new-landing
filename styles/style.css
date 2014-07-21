@@ -1,31 +1,46 @@
-.motivationblock__title, .storesblock__title, .socialblock__name, .socialblock__title {
+.motivationblock__title, .storesblock__title {
   font-weight: 400;
   margin-bottom: 5px; }
 
-.motivationblock__text, .storesblock__text, .socialblock__text {
+.text {
   color: #848484;
   line-height: 1.4em;
   font-weight: 200; }
 
-.topblock__wrap, .motivationblock__wrap, .storesblock__wrap, .socialblock__wrap, .footerblock__wrap {
-  width: 1000px;
-  margin: auto;
-  padding: 75px 0 75px 0;
-  vertical-align: top; }
+.text_store {
+  color: #000; }
 
-a.topblock__appstore, a.topblock__googleplay, a.footerblock__icon {
+.wrap {
+  width: 1000px;
+  margin: auto; }
+
+.wrap_center {
+  text-align: center;
+  padding: 60px 0; }
+
+.wrap_top {
+  padding: 80px 0 0 60px; }
+
+.icon {
   background-color: #fe9500;
   display: inline-block;
-  width: 55px;
-  height: 45px;
   border-radius: 50%;
   color: white;
-  text-align: center;
+  text-align: center; }
+
+.icon_size-small {
+  width: 55px;
+  height: 45px;
   padding-top: 10px;
   margin-right: 15px; }
-  a.topblock__appstore:hover, a.topblock__googleplay:hover, a.footerblock__icon:hover {
+  .icon_size-small:hover {
     background-color: rgba(254, 149, 0, 0.8);
     color: rgba(255, 255, 255, 0.8); }
+
+.icon_size-big {
+  width: 100px;
+  height: 80px;
+  padding-top: 20px; }
 
 body {
   margin: 0;
@@ -40,53 +55,36 @@ li {
   background-size: cover; }
 
 .topblock:before {
-  position: absolute;
+  position: relative;
   content: '';
   background: rgba(0, 0, 0, 0.1);
   width: 100%;
-  height: 605px;
+  height: 587px;
   top: 0; }
 
-.topblock__wrap {
-  width: 935px;
-  padding: 80px 0 0 65px; }
-
-.topblock__content {
-  width: 455px;
+.column {
   display: inline-block;
-  position: relative;
-  bottom: 140px;
-  line-height: 1.3; }
+  vertical-align: top;
+  width: 550px; }
 
-.handhtc {
-  display: inline-block;
-  position: relative;
-  bottom: -18px;
-  right: -35px; }
-
-.topblock__logo {
-  display: block;
+.logo {
   margin-bottom: 20px; }
+  .logo img {
+    margin-top: 15px;
+    display: block; }
 
-.slogan {
-  color: white;
-  font-weight: 200;
-  display: block; }
-
-.topblock__text {
+.slogan-top {
+  width: 450px;
+  display: block;
   color: white;
   font-size: 24px;
   font-weight: 300;
-  display: block;
-  margin: 40px 0 30px 0;
+  margin: 40px 0;
   text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3); }
 
-/*icons inner position fix*/
-a.topblock__googleplay i {
-  margin-left: 1px; }
-
-.motivationblock__wrap {
-  text-align: center; }
+.handhtc {
+  display: inline-block;
+  margin-bottom: -3px; }
 
 .motivationblock__section {
   width: 29%;
@@ -94,23 +92,8 @@ a.topblock__googleplay i {
   vertical-align: top;
   text-align: center; }
 
-.motivationblock__icon {
-  width: 100px;
-  height: 80px;
-  display: block;
-  background-color: #fe9500;
-  border-radius: 50%;
-  color: white;
-  text-align: center;
-  margin: auto;
-  padding-top: 20px; }
-
 .storesblock {
   background: url(../images/food.png); }
-
-.storesblock__wrap {
-  text-align: center;
-  padding: 120px 0; }
 
 .storesblock__content {
   display: inline-block;
@@ -124,24 +107,17 @@ a.topblock__googleplay i {
   vertical-align: top;
   text-align: center; }
 
-.storesblock__text {
-  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3); }
+.storesblock__title {
+  font-size: 35px;
+  font-weight: 600; }
 
-.socialblock__wrap {
-  text-align: center; }
-
-.socialblock__name {
+.reviewblock__name {
   font-size: 18px;
-  font-weight: 500; }
-
-.socialblock__title {
-  margin: 30px 0 30px 0; }
+  font-weight: 700;
+  margin: 10px 0 30px 0; }
 
 .footerblock {
-  background: #190e00; }
-
-.footerblock__wrap {
-  padding: 30px 0; }
+  background: rgba(0, 0, 0, 0.8); }
 
 .footerblock__links {
   text-align: center;
@@ -150,10 +126,15 @@ a.topblock__googleplay i {
 .footerblock__link {
   color: white;
   text-decoration: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   margin: 5px; }
   .footerblock__link:hover {
-    color: rgba(255, 255, 255, 0.7); }
+    color: rgba(254, 149, 0, 0.9);
+    border-bottom: 1px solid rgba(254, 149, 0, 0.5); }
 
 .footerblock__icons {
   text-align: center; }
+
+.social-wrap {
+  width: 710px;
+  margin: 50px auto; }
